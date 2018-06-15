@@ -4,4 +4,9 @@ describe("general purpose utility functions", function(){
 			expect(fullName("Tyler", "Stanish")).toEqual("Tyler Stanish");
 		});
 	});
+	describe("ageInYears()", function() {
+		it("returns age for a birthday string", function(){
+			expect(ageInYears("1980-06-01")).toEqual(38);
+		});
+	});
 });
