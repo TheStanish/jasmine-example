@@ -13,5 +13,9 @@ function ageInYears(birthdayString) {
 
 function isOver21(birthdayString) {
 	return ageInYears(birthdayString) >= 21;
-	
+
+}
+
+function isLeapYear(year) {
+	return( year % 4 == 0);
 }
